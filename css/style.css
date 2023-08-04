@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+header {
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    height: 55px;
+}
+
+header img {
+    max-width: 45px;
+    margin: 0 40px;
+    margin-right: 4px;
+}
+
+header h1 {
+    display: inline;
+    font-size: 20px;
+}
+
+header h1:first-line {
+    color: rgb(41, 39, 39);
+}
+
+header h1 span {
+    color: aliceblue;
+}
