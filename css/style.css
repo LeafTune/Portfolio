@@ -12,23 +12,24 @@ header {
     padding: 2px;
 }
 
-header .logo-section {
+header .logo-section a {
     display: flex;
     align-items: center;
+    text-decoration: none;
 }
 
-header .logo-section img {
+header .logo-section a img {
     max-width: 45px;
     margin: 0 40px;
     margin-right: 4px;
 }
 
-header .logo-section h1 {
+header .logo-section a h1 {
     display: inline;
     font-size: 20px;
 }
 
-header .logo-section h1:first-line {
+header .logo-section a h1:first-line {
     margin: 0;
     color: rgb(41, 39, 39);
     font-family: 'Nunito', sans-serif;
@@ -36,7 +37,7 @@ header .logo-section h1:first-line {
     line-height: 17px;
 }
 
-header .logo-section h1 span {
+header .logo-section a h1 span {
     color: aliceblue;
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
