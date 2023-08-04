@@ -7,6 +7,7 @@ header {
     display: flex;
     align-items: center;
     height: 55px;
+    padding: 2px;
 }
 
 header img {
