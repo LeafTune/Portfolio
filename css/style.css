@@ -110,3 +110,10 @@ main {
     height: 45px;
     width: 240px;
 }
+
+.category .category-title-and-icon h2 {
+    margin: 0;
+    margin-left: 20px;
+    line-height: 43px;
+    font-size: 30px;
+}
