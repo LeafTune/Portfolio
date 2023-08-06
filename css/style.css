@@ -89,13 +89,24 @@ main {
     border-radius: 45px; */
     /* display: flex;
     justify-content: center; */
+    position: relative;
 }
 
 .category img {
     border-radius: 42px;
-    border: 7px solid red;
+    border: 7px solid rgb(221, 189, 189);
     margin-top: 7px;
     object-fit: cover;
     width: 235px;
     height: 235px;
+}
+
+.category .category-title-and-icon {
+    position: absolute;
+    background-color: rgb(221, 204, 204);
+    border-radius: 0 0 40px 40px;
+    left: 4px;
+    bottom: 11px;
+    height: 45px;
+    width: 240px;
 }
