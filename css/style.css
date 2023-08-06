@@ -78,13 +78,24 @@ header nav ul hr {
 main {
     background-color: antiquewhite;
     margin: 70px 8%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .category {
-    background-color: blue;
+    /* background-color: blue;
     width: 250px;
+    height: 250px;
+    border-radius: 45px; */
+    /* display: flex;
+    justify-content: center; */
 }
 
 .category img {
-    max-width: 200px;
+    border-radius: 42px;
+    border: 7px solid red;
+    margin-top: 7px;
+    object-fit: cover;
+    width: 235px;
+    height: 235px;
 }
