@@ -75,3 +75,16 @@ header nav ul hr {
     margin: 0 8px;
 }
 
+main {
+    background-color: antiquewhite;
+    margin: 70px 8%;
+}
+
+.category {
+    background-color: blue;
+    width: 250px;
+}
+
+.category img {
+    max-width: 200px;
+}
