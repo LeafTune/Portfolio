@@ -83,12 +83,6 @@ main {
 }
 
 .category {
-    /* background-color: blue;
-    width: 250px;
-    height: 250px;
-    border-radius: 45px; */
-    /* display: flex;
-    justify-content: center; */
     position: relative;
 }
 
@@ -99,6 +93,16 @@ main {
     object-fit: cover;
     width: 235px;
     height: 235px;
+}
+/* the below css gives an invisible div a border to very faintly 
+smooth out the img's bottom two corners */
+.category .extra-img-border {
+    position: absolute;
+    border-radius: 42px 42px 8px 8px;
+    border: 7px solid rgb(221, 189, 189);
+    top: 7px;
+    width: 235px;
+    height: 191px;
 }
 
 .category .category-title-and-icon {
