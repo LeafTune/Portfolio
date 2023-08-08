@@ -133,6 +133,7 @@ smooth out the img's bottom two corners */
     bottom: -6px;
     left: -6px;
     line-height: 40px;
+    border-radius: 42px;
 }
 
 .category .category-title-and-icon .arrow-icon:hover {
