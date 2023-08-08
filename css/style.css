@@ -83,8 +83,8 @@ header nav ul hr {
 }
 
 main {
-    background-color: antiquewhite;
-    margin: 125px 8% 70px 8%;
+    /* background-color: antiquewhite; */
+    margin: 125px 10% 70px 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -137,3 +137,45 @@ main {
 
 /* Do I want the h2 to also lighten on hover? add to same layer? 
 inside >'s span? */
+
+footer {
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 180px;
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3px;
+}
+
+footer nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin-top: 25px;
+}
+
+footer nav ul li {
+    margin-bottom: 13px;
+}
+
+footer>.footers-footer {
+    background-color: rgb(90, 90, 90);
+    bottom: 0;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* note to self: add min width/height to categories 
+and make them % not px?*/
