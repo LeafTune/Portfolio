@@ -116,8 +116,26 @@ smooth out the img's bottom two corners */
 }
 
 .category .category-title-and-icon h2 {
+    color: black;
     margin: 0;
     margin-left: 20px;
     line-height: 43px;
     font-size: 30px;
+}
+
+.category .category-title-and-icon .arrow-icon {
+    font-family: 'manrope', 'Courier New', Courier, monospace;
+    font-size: 60px;
+    text-decoration: none;
+    color: rgb(28, 31, 34);
+    position: absolute;
+    padding: 195px 27px 14px 188px;
+    bottom: -6px;
+    left: -6px;
+    line-height: 40px;
+}
+
+.category .category-title-and-icon .arrow-icon:hover {
+    color: aliceblue;
+    cursor: pointer;
 }
