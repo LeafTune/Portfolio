@@ -84,46 +84,24 @@ main {
 
 .category {
     position: relative;
-}
-
-.category img {
+    background-color: rgb(237, 211, 211);
     border-radius: 42px;
     border: 7px solid rgb(221, 189, 189);
-    margin-top: 7px;
-    object-fit: cover;
     width: 235px;
     height: 235px;
 }
-/* the below css gives an invisible div a border to very faintly 
-smooth out the img's bottom two corners */
-.category .extra-img-border {
-    position: absolute;
-    border-radius: 42px 42px 8px 8px;
-    border: 7px solid rgb(221, 189, 189);
-    top: 7px;
-    width: 235px;
-    height: 191px;
-}
 
-.category .category-title-and-icon {
+.category h2 {
     position: absolute;
-    background-color: rgb(221, 204, 204);
-    border-radius: 0 0 40px 40px;
-    left: 4px;
-    bottom: 11px;
-    height: 45px;
-    width: 240px;
-}
-
-.category .category-title-and-icon h2 {
     color: black;
     margin: 0;
     margin-left: 20px;
     line-height: 43px;
     font-size: 30px;
+    bottom: 0px;
 }
 
-.category .category-title-and-icon .arrow-icon {
+.category .arrow {
     font-family: 'manrope', 'Courier New', Courier, monospace;
     font-size: 60px;
     text-decoration: none;
@@ -136,7 +114,13 @@ smooth out the img's bottom two corners */
     border-radius: 42px;
 }
 
-.category .category-title-and-icon .arrow-icon:hover {
+.category img {
+    position: absolute;
+    border-radius: 37px 37px 8px 8px;
+    width: 235px;
+    height: 191px;
+}
+
+.category .arrow:hover {
     color: aliceblue;
-    cursor: pointer;
 }
