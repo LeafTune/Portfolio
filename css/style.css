@@ -91,7 +91,7 @@ main {
     height: 235px;
 }
 
-.category h2 {
+.category .category-title {
     position: absolute;
     color: black;
     margin: 0;
@@ -99,6 +99,13 @@ main {
     line-height: 43px;
     font-size: 30px;
     bottom: 0px;
+}
+
+.category img {
+    position: absolute;
+    border-radius: 37px 37px 8px 8px;
+    width: 235px;
+    height: 191px;
 }
 
 .category .arrow {
@@ -114,13 +121,9 @@ main {
     border-radius: 42px;
 }
 
-.category img {
-    position: absolute;
-    border-radius: 37px 37px 8px 8px;
-    width: 235px;
-    height: 191px;
-}
-
 .category .arrow:hover {
     color: aliceblue;
 }
+
+/* Do I want the h2 to also lighten on hover? add to same layer? 
+inside >'s span? */
