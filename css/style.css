@@ -4,6 +4,13 @@ body {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-container {
     background-color: palevioletred;
     display: flex;
     align-items: center;
@@ -77,9 +84,10 @@ header nav ul hr {
 
 main {
     background-color: antiquewhite;
-    margin: 70px 8%;
+    margin: 125px 8% 70px 8%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .category {
@@ -89,6 +97,7 @@ main {
     border: 7px solid rgb(221, 189, 189);
     width: 235px;
     height: 235px;
+    margin: 4% 1%;
 }
 
 .category .category-title {
@@ -103,6 +112,7 @@ main {
 
 .category img {
     position: absolute;
+    object-fit: cover;
     border-radius: 37px 37px 8px 8px;
     width: 235px;
     height: 191px;
