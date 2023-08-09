@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'nunito', sans-serif;
+    background-color: rgb(251, 251, 251);
 }
 
 header {
@@ -148,11 +149,91 @@ footer {
     height: 180px;
 }
 
+.footer-links-and-deco {
+    display: flex;
+    justify-content: space-between;
+    align-items: space-between;
+    width: 100%;
+    height: 180px;
+}
+
+.footer-deco-one {
+    position: relative;
+    display: inline-block;
+    width: 35%;
+}
+
+.footer-deco-two {
+    position: relative;
+    display: inline-block;
+    width: 35%;
+    }
+
+.leaf {
+    position: absolute;
+    bottom: 0px;
+    border: 2px solid rgb(183, 183, 183);
+}
+
+.leaf-right {
+    right: 0px;
+}
+
+.leaf-top {
+    width: 25%;
+    height: 90%;
+}
+
+.leaf-middle {
+    width: 55%;
+    height: 65%;
+}
+
+.leaf-bottom {
+    width: 85%;
+    height: 30%;
+}
+
+.leaf-one {
+    border-radius: 50% 65% 60% 0;
+}
+
+.leaf-two {
+    border-radius: 70% 60% 65% 0;
+}
+
+.leaf-three {
+    border-radius: 230% 265% 210% 0;
+    bottom: -1px;
+}
+
+.leaf-four {
+    border-radius: 65% 60% 0 50%;
+}
+
+.leaf-five {
+    border-radius: 60% 65% 0 70%;
+}
+
+.leaf-six {
+    border-radius: 265% 210% 0 230%;
+    bottom: -1px;
+}
+
+/* Might change leaf three and six, they look a bit odd I 
+think - I wonder if border-radius is affecting them oddly 
+because they are such a different shape, or something else? 
+if something else, maybe I can fix it.*/
+
 footer nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-top: 3px;
+}
+
+footer nav a {
+    color: rgb(5, 5, 6);
 }
 
 footer nav ul {
@@ -166,6 +247,10 @@ footer nav ul {
 
 footer nav ul li {
     margin-bottom: 13px;
+}
+
+footer .footer-links-and-deco nav ul li a {
+    color: aliceblue;
 }
 
 footer>.footers-footer {
