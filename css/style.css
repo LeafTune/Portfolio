@@ -54,8 +54,16 @@ header .logo-section a h1 span {
     line-height: 25px;
 }
 
+header nav ul>a {
+    text-decoration: none;
+}
+
 header nav .material-symbols-rounded {
     display: none;
+    text-decoration: none;
+    color: rgb(227, 227, 227);
+    font-size: 40px;
+    font-weight: 300;
 }
 
 header nav ul {
@@ -145,19 +153,19 @@ main {
 inside >'s span? */
 
 footer {
+    position: relative;
     background-color: darkgrey;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
     width: 100%;
     height: 180px;
 }
 
-.footer-links-and-deco {
+.footer-deco {
     display: flex;
     justify-content: space-between;
-    align-items: space-between;
     width: 100%;
     height: 180px;
 }
@@ -209,7 +217,6 @@ footer {
 
 .leaf-three {
     border-radius: 230% 265% 210% 0;
-    bottom: -1px;
 }
 
 .leaf-four {
@@ -222,7 +229,6 @@ footer {
 
 .leaf-six {
     border-radius: 265% 210% 0 230%;
-    bottom: -1px;
 }
 
 /* Might change leaf three and six, they look a bit odd I 
@@ -230,17 +236,32 @@ think - I wonder if border-radius is affecting them oddly
 because they are such a different shape, or something else? 
 if something else, maybe I can fix it.*/
 
+.footer-nav-positioning-box {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 180px;
+    top: 0;
+}
+
 footer nav {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 3px;
-    width: 35%;
+    width: 30%;
+    top: 0;
+    right: 45%;
+    left: 45%;
+}
+
+footer .footer-nav-positioning-box nav>a {
+    color: aliceblue;
 }
 
 footer nav a {
-    color: rgb(5, 5, 6);
-
+    color: rgb(0, 0, 0);
 }
 
 footer nav ul {
@@ -256,7 +277,7 @@ footer nav ul li {
     margin-bottom: 13px;
 }
 
-footer .footer-links-and-deco nav ul li a {
+footer .footer-deco nav ul li a {
     color: aliceblue;
 }
 
