@@ -1,5 +1,13 @@
 @media(max-width: 575px) {
 
+    body {
+        width: 100%;
+    }
+
+    header .logo-section {
+        width: 70%;
+    }
+
     header nav ul hr {
         display: none;
     }
@@ -18,8 +26,10 @@
         margin: 95px 5% 70px 5%;
     }
 
+    .category {
+        margin: 4% 0%;
+    }
 
-    
 
 
 }
