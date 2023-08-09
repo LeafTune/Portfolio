@@ -28,7 +28,7 @@ header .logo-section a {
 
 header .logo-section a img {
     max-width: 45px;
-    margin: 0 40px;
+    margin: 0 0 0 40px;
     margin-right: 4px;
 }
 
@@ -54,10 +54,15 @@ header .logo-section a h1 span {
     line-height: 25px;
 }
 
+header nav .material-symbols-rounded {
+    display: none;
+}
+
 header nav ul {
     display: flex;
-    list-style: none;
     align-items: center;
+    padding: 0;
+    list-style: none;
 }
 
 header nav ul li:last-of-type {
@@ -228,12 +233,14 @@ if something else, maybe I can fix it.*/
 footer nav {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     margin-top: 3px;
+    width: 35%;
 }
 
 footer nav a {
     color: rgb(5, 5, 6);
+
 }
 
 footer nav ul {

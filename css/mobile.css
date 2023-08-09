@@ -1,0 +1,27 @@
+@media(max-width: 575px) {
+
+    header nav ul hr {
+        display: none;
+    }
+
+    header nav .material-symbols-rounded {
+        display: inline;
+    }
+
+    header nav ul li a {
+        display: none;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+        margin: 95px 5% 70px 5%;
+    }
+
+
+
+
+
+
+
+}
