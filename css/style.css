@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'nunito', sans-serif;
     background-color: #DFF5FF;
+    /* background-color: #f3f7f8; */
 }
 
 header {
@@ -85,8 +86,9 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    color: rgb(255, 255, 255);
-    background-color: rgb(225, 139, 168);
+    color: #ffffff;
+    /* background-color: rgb(222, 111, 148); */
+    background-color: #527281;
     border-radius: 8px;
 }
 
@@ -103,6 +105,7 @@ header nav ul hr {
 
 main {
     background-color: #B2D7E3;
+    /* background-color: #c2d5db; */
     margin: 125px 10% 70px 10%;
     padding: 0 0.7%;
     display: flex;
@@ -259,7 +262,7 @@ if something else, maybe I can fix it.*/
     top: 0;
 }
 
-footer nav {
+footer .footer-nav-positioning-box nav {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -272,21 +275,49 @@ footer nav {
 
 footer .footer-nav-positioning-box nav>a {
     color: #f4f4f4;
+    padding: 1px 5px 5px 5px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+footer .footer-nav-positioning-box nav>a:hover {
+    background-color: #527281;
 }
 
 footer nav ul li a {
     text-decoration: none;
 }
 .footer-home {
-    color: #BFDDE3;
+    color: #bfdde3;
+    padding: 0 5px;
+    border-radius: 4px;
+}
+
+.footer-home:hover {
+    color: #ffffff;
+    background-color: #527281;
 }
 
 .footer-about {
     color: #8CDAE5;
+    padding: 0 5px;
+    border-radius: 4px;
+}
+
+.footer-about:hover {
+    color: #f2f2f2;
+    background-color: #527281;
 }
 
 .footer-blog {
     color: #89DBEE;
+    padding: 0 5px;
+    border-radius: 4px;
+}
+
+.footer-blog:hover {
+    color: #f0f0f0;
+    background-color: #527281;
 }
 
 footer nav ul {
@@ -315,6 +346,9 @@ footer>.footers-footer {
     justify-content: center;
     align-items: center;
 }
+
+/* Might be able to shorten footer nav 
+styling? (colour, padding, hover) */
 
 /* note to self: add min width/height to categories 
 and make them % not px?*/

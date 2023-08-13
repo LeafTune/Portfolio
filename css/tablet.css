@@ -1,7 +1,11 @@
 @media(max-width: 750px) {
 
-    main {
+    .index-main {
         margin: 125px 5% 70px 5%;
+    }
+
+    .category {
+        margin: 4% 0.1%;
     }
 
 
