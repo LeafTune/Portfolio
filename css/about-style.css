@@ -1,19 +1,31 @@
 main {
     background-color: #DFF5FF;
     border: 0;
+    margin-top: 120px;
+    margin-bottom: 60px;
 }
 
 main section {
     background-color: #B2D7E3;
-    margin: 0 10% 35px 10%;
+    margin: 0 10% 45px 10%;
     padding: 10px;
     border: 2px solid white;
+    font-family: 'open sans', sans-serif;
+    color: #393939;
 }
 
 main ul {
     background-color: #B2D7E3;
-    padding: 5px 0 5px 25px;
+    padding: 5px 7px 5px 25px;
     border: 2px solid white;
+}
+
+main ul li {
+    color: #323232;
+    font-size: 18px;
+    /* font-weight: 600; */
+    font-weight: 500;
+    font-family: 'open sans', sans-serif;
 }
 
 main ul li::marker {
@@ -22,4 +34,43 @@ main ul li::marker {
 
 main p {
     margin: 0 0 0 10px;
+    color: #323232;
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+
+
+@media(max-width: 750px) {
+
+    main {
+        margin: 95px 5% 30px 5%;
+    }
+
+    main section {
+        margin: 5px 0 45px 0;
+    }
+
+
+
+}
+
+
+
+
+
+@media(max-width: 575px) {
+
+    main {
+        margin: 95px 5% 30px 5%;
+    }
+
+    main section {
+        margin: 5px 0 45px 0;
+    }
+
+
+
 }

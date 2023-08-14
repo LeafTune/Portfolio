@@ -160,7 +160,7 @@ main {
 }
 
 .category .arrow:hover {
-    color: aliceblue;
+    color: #999180;
 }
 
 /* Do I want the h2 to also lighten on hover? add to same layer? 
