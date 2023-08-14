@@ -1,3 +1,14 @@
+/* main from index, before it became nav */
+main {
+background-color: #B2D7E3;
+margin: 125px 10% 70px 10%;
+padding: 0 0.7%;
+border: 2px solid white;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
 main {
     background-color: #DFF5FF;
     border: 0;

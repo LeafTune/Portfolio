@@ -103,7 +103,7 @@ header nav ul hr {
 /* MAIN BELOW */
 
 
-main {
+.index-main-nav {
     background-color: #B2D7E3;
     /* background-color: #c2d5db; */
     margin: 125px 10% 70px 10%;
@@ -163,8 +163,10 @@ main {
     color: #999180;
 }
 
-/* Do I want the h2 to also lighten on hover? add to same layer? 
-inside >'s span? */
+/* Specific category additions below */
+.this-website-category .category-title {
+    margin-left: 7px;
+}
 
 footer {
     position: relative;
