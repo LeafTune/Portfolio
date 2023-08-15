@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(249, 249, 249);
+}
+
+header {
+    background-color: rgb(40, 40, 40);
+}
+
+main {
+    display: flex;
+    margin: 117px 6% 70px 6%;
+}
+
+main img {
+    border: 2px solid rgb(125, 125, 125);
+}
+
+.snail_on_grain_img {
+    margin: 0 2% 0 0;
+}
+
+main section {
+    display: flex;
+    flex-direction: column;
+}
+
+.butterfly-on-yellow-flower-img {
+    margin: 0 0 2% 5%;
+}
+
+.blue_butterfly_on_grass_stalk_img {
+    margin: 2% 0 0 5%;
+    right: 0px;
+}
+
+footer {
+    background-color: rgb(82, 82, 82);
+}
+
+footer .footers-footer {
+    background-color: rgb(47, 47, 47);
+}
