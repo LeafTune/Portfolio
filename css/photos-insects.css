@@ -9,28 +9,83 @@ header {
 main {
     display: flex;
     margin: 117px 6% 70px 6%;
+    justify-content: space-between;
 }
 
 main img {
     border: 2px solid rgb(125, 125, 125);
 }
 
-.snail_on_grain_img {
-    margin: 0 2% 0 0;
+main #image-section-one {
+    background-color: palegoldenrod;
+    width: 45%;
 }
 
-main section {
+#snail-on-grain-img {
+    margin: 0 0 2% 0;
+    width: 100%;
+    max-width: 100%;
+    max-height: auto;
+}
+
+#butterfly-on-yellow-flower-img {
+    margin: 2% 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+#grasshopper_on_grass {
+    width: 100%;
+}
+
+#image-section-two {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    width: 50%;
+}
+
+#insect-on-grass-head {
+    margin: 0 0 2% 0;
+}
+
+
+#box-image-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+#beetle_on_leaf {
+    margin: 0 2% 2% 0;
+    max-width: 50%;
+    width: 50%;
+    height: auto;
+}
+
+#image-box-mini-section {
     display: flex;
     flex-direction: column;
 }
 
-.butterfly-on-yellow-flower-img {
-    margin: 0 0 2% 5%;
+#blue_butterfly_on_grass_stalk_img {
+    margin: 0 0 2% 2%;
+    width: 100%;
 }
 
-.blue_butterfly_on_grass_stalk_img {
-    margin: 2% 0 0 5%;
-    right: 0px;
+#comma_butterfly_on_thistle {
+    margin: 2% 0 2% 2%;
+    width: 100%;
+}
+
+#caterpillar_on_ground {
+    margin: 2% 0;
+    width: 100%;
+}
+
+#bumblebee_on_yellow_flower {
+    margin: 2% 0;
+    width: 100%;
 }
 
 footer {
