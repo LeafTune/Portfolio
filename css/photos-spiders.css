@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(249, 249, 249);
+}
+
+header {
+    background-color: rgb(40, 40, 40);
+}
+
+/* main was 7% either side */
+main {
+    margin: 117px 10% 125px 10%;
+}
+
+#images-in-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#spider_in_front_of_torch {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 0 1.5% 0;
+}
+
+#image-section-one {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    width: 100%;
+}
+
+#spider_on_side_of_rock {
+    width: 39%;
+    height: auto;
+    margin: 0 1.5% 1.5% 0;
+}
+
+#spider_in_front_of_sunset {
+    width: 59%;
+    height: auto;
+    margin: 0 0 1.5% 0;
+}
+
+#image-section-two {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    width: 100%;
+}
+
+#spider_with_plants_behind {
+    margin: 0 1.5% 1.5% 0;
+    width: 46%;
+}
+
+#spider_on_bridge_wall {
+    margin: 0 0 1.5% 0;
+    width: 52.2%;
+}
+
+#image-section-three {
+    display: flex;
+    justify-content: space-between;
+}
+
+#spider-on-coat {
+    width: 49%;
+    margin: 0 1.5% 1.5% 0;
+}
+
+#spider-on-wooden-wall {
+    width: 49%;
+    height: auto;
+    margin: 0 0 1.5% 0;
+}
+
+footer {
+    background-color: rgb(82, 82, 82);
+}
+
+footer .footers-footer {
+    background-color: rgb(47, 47, 47);
+}
