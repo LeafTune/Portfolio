@@ -82,3 +82,63 @@ footer {
 footer .footers-footer {
     background-color: rgb(47, 47, 47);
 }
+
+
+
+
+
+/* Mobile styling below */
+@media(max-width:575px) {
+
+    main {
+        margin: 106px 7% 51px 7%;
+    }
+
+    #spider_in_front_of_torch {
+        margin-bottom: 4%;
+    }
+
+    #image-section-one {
+        flex-direction: column;
+    }
+
+    #spider_on_side_of_rock {
+        width: 100%;
+        margin-bottom: 4%;
+    }
+
+    #spider_in_front_of_sunset {
+        width: 100%;
+        margin-bottom: 4%;
+    }
+
+    #image-section-two {
+        flex-direction: column;
+    }
+
+    #spider_with_plants_behind {
+        width: 100%;
+        margin-bottom: 4%;
+    }
+
+    #spider_on_bridge_wall {
+        width: 100%;
+        margin-bottom: 4%;
+    }
+
+    #image-section-three {
+        flex-direction: column;
+    }
+
+    #spider-on-coat {
+        width: 100%;
+        margin-bottom: 4%;
+    }
+
+    #spider-on-wooden-wall {
+        width: 100%;
+    }
+
+
+
+}
