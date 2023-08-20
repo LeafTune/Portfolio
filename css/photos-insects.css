@@ -39,7 +39,7 @@ main #image-section-one {
     width: 99%;
 }
 
-#grasshopper_on_grass {
+#grasshopper-on-grass {
     width: 99%;
 }
 
@@ -63,7 +63,7 @@ main #image-section-one {
     margin-top: 2%;
 }
 
-#beetle_on_leaf {
+#beetle-on-leaf {
     margin: 0 2% 2% 0;
     max-width: 58%;
     width: 59.04%;
@@ -83,22 +83,27 @@ main #image-section-one {
     padding-bottom: 1.3%;
 }
 
-#blue_butterfly_on_grass_stalk_img {
-    margin: 0 0 2% 2%;
-    width: 100%;
-}
-
-#comma_butterfly_on_thistle {
+#blue-butterfly-on-grass-stalk-img {
     margin: 2% 0 2% 2%;
     width: 100%;
 }
 
-#caterpillar_on_ground {
+#comma-butterfly-on-thistle {
+    margin: 2% 0 2% 2%;
+    width: 100%;
+}
+
+#wasp-on-glass {
+    margin: 0 0 2% 2%;
+    width: 100%;
+}
+
+#caterpillar-on-ground {
     margin: 2% 0;
     width: 99%;
 }
 
-#bumblebee_on_yellow_flower {
+#bumblebee-on-yellow-flower {
     margin: 2% 0 0 0;
     width: 99%;
 }
@@ -141,7 +146,7 @@ footer .footers-footer {
         width: 100%;
     }
 
-    #grasshopper_on_grass {
+    #grasshopper-on-grass {
         margin: 1.5% 0;
     }
 
@@ -158,16 +163,16 @@ footer .footers-footer {
         width: 38%;
     }
 
-    #comma_butterfly_on_thistle {
+    #comma-butterfly-on-thistle {
         margin: 2.2% 0 2% 2%;
         width: 100%;
     }
 
-    #caterpillar_on_ground {
+    #caterpillar-on-ground {
         margin: 1.5% 0;
     }
 
-    #bumblebee_on_yellow_flower {
+    #bumblebee-on-yellow-flower {
         margin: 1.5% 0 0 0;
     }
 
@@ -190,7 +195,7 @@ footer .footers-footer {
         flex-direction: column;
     }
 
-    #beetle_on_leaf {
+    #beetle-on-leaf {
         margin: 0 2% 2% 0;
         max-width: 99%;
         width: 99%;
@@ -202,16 +207,22 @@ footer .footers-footer {
         max-width: 100%;
         width: 100%;
         align-items: start;
+        flex-wrap: wrap;
     }
 
-    #blue_butterfly_on_grass_stalk_img {
+    #blue-butterfly-on-grass-stalk-img {
         margin: 2% 2% 2% 0;
         width: 47.5%;
     }
     
-    #comma_butterfly_on_thistle {
+    #comma-butterfly-on-thistle {
         margin: 2% 0 2% 0;
         width: 48.5%;
+    }
+
+    #wasp-on-glass {
+        margin: 2% 0 0% 0;
+        max-width: 99%;
     }
 
 
